@@ -17,6 +17,10 @@ Q: list files and sort files by size
 Q: list files in reverse order
 > ls -r
 
+Q: change directory to home directory
+> cd ~
+> cd ~username> cd ~username/path_here> cd ~
+
 """
 
 from flask import Flask, escape, request, jsonify
